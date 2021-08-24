@@ -20,6 +20,7 @@ axios
     } else {
       tweet = "Nothing happened today :)";
     }
+    tweet += "\n#TodayInHistoryBOT";
 
     twitterClient.tweets
       .statusesUpdate({
